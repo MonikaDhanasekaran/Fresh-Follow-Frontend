@@ -1,0 +1,19 @@
+/* Search Bar */
+
+#default-search{
+    width: 180%;
+    margin-left: 40%;
+    height: 47px;
+}
+
+/* Search Icon */
+
+#searchIcon{
+    margin-left: 40%;
+}
+
+/* Products */
+
+#Product{
+    background-color: rgb(201, 252, 252);
+}

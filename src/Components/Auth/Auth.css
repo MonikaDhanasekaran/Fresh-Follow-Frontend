@@ -1,0 +1,305 @@
+/* Login Page */
+
+/* Div */
+
+#Login {
+    background-image: url("../../assets/login.gif");
+    height: 713px;
+    width: 100%;
+}
+
+/* Card */
+
+#loginCard {
+    background-color: skyblue;
+    margin-left: 37%;
+    margin-top: 6%;
+    width: 25%;
+    padding: 5px;
+    border-radius: 40px;
+}
+
+/* Typography */
+
+#loginTypo {
+    font-family: "Comic Sans MS";
+    text-align: center;
+    color: navy;
+}
+
+/* Button */
+
+#loginButton {
+    margin-left: 110px;
+    width: 120px;
+    background-color: navy;
+    border-radius: 20px;
+}
+
+#buttonDiv {
+    margin-left: 15%;
+}
+
+#Link {
+    color: navy;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#Linked {
+    margin-left: 18%;
+    color: navy;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* Register */
+
+/* Div */
+
+#divRegister {
+    background-image: url("../../assets/register.gif");
+    height: 713px;
+    width: 100%;
+}
+
+/* Button */
+
+#Button {
+    margin-left: 33%;
+}
+
+/* Card */
+
+#registerCard {
+    margin-left: 25%;
+    background-color: skyblue;
+    border-radius: 30px;
+    margin-top: 40px;
+    width: 50%;
+    padding: 15px;
+}
+
+/* Link */
+
+#LinkLogin {
+    margin-left: 9px;
+    color: navy;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* Button */
+
+#registerButton{
+    background-color: navy;
+    color: skyblue;
+    margin-left: 35%;
+    margin-top: 20px;
+    width: 30%;
+}
+
+/* Forgot Password */
+
+/* Div */
+
+#forgotpasswordDiv {
+    background-image: url("../../assets/forgotPassword.gif");
+    height: 713px;
+    width: 100%;
+}
+
+/* Card */
+
+#cardForgotPassword {
+    margin-top: 11%;
+    margin-left: 35%;
+    padding: 20px;
+    width: 30%;
+    background-color: skyblue;
+    border-radius: 30px;
+}
+
+/* Typography */
+
+#forgotPasswordTypo {
+    font-family: "Comic Sans MS";
+    text-align: center;
+    color: navy;
+}
+
+/* Button */
+
+#forgotPasswordButton {
+    margin-left: 35%;
+    width: 30%;
+    background-color: navy;
+}
+
+/* Change Password */
+
+#changePasswordPage {
+    background-image: url("../../assets/change-password.gif");
+    height: 713px;
+    width: 100%;
+}
+
+/* Card */
+
+#cardChangePassword {
+    margin-top: 9%;
+    border-radius: 30px;
+    margin-left: 35%;
+    padding: 20px;
+    width: 30%;
+    background-color: skyblue;
+}
+
+/* Typography */
+
+#changePasswordTypo {
+    font-family: "Comic Sans MS";
+    text-align: center;
+    color: navy;
+}
+
+/* Button */
+
+#changePasswordButton {
+    margin-left: 35%;
+    background-color: navy;
+    width: 30%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+#title {
+    font-size: 30px;
+    font-family: "Comic Sans MS";
+    text-align: center;
+    color: navy;
+}
+
+.content form .user-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+
+form .user-details .input-box {
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+}
+
+form .input-box span.details {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.user-details .input-box input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+.user-details .input-box input:focus,
+.user-details .input-box input:valid {
+    border-color: #9b59b6;
+}
+
+form .gender-details .gender-title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+form .category {
+    display: flex;
+    width: 80%;
+    margin: 14px 0;
+    justify-content: space-between;
+}
+
+form .category label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+form .category label .dot {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background: #d9d9d9;
+    border: 5px solid transparent;
+    transition: all 0.3s ease;
+}
+
+#dot-1:checked~.category label .one,
+#dot-2:checked~.category label .two,
+#dot-3:checked~.category label .three {
+    background: #9b59b6;
+    border-color: #d9d9d9;
+}
+
+form input[type="radio"] {
+    display: none;
+}
+
+form .button input {
+    height: 100%;
+    margin-left: 25%;
+    width: 50%;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+form .button input:hover {
+    /* transform: scale(0.99); */
+    background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+}
+
+@media(max-width: 584px) {
+    .container {
+        max-width: 100%;
+    }
+
+    form .user-details .input-box {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    form .category {
+        width: 100%;
+    }
+
+    .content form .user-details {
+        max-height: 300px;
+        overflow-y: scroll;
+    }
+
+    .user-details::-webkit-scrollbar {
+        width: 5px;
+    }
+}
+
+@media(max-width: 459px) {
+    .container .content .category {
+        flex-direction: column;
+    }
+}
