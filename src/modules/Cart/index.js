@@ -58,6 +58,7 @@ const Cart = () => {
         toast("Order Placed", {
             icon: "🎊🎉"
         });
+        navigate("/home");
     }
 
     if (carts.length === 0) return <>
