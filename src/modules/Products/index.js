@@ -42,7 +42,7 @@ const Products = () => {
   const handleProductSearch = async (event) => {
     let key = event.target.value;
     if (key) {
-      let result = await fetch(`http://localhost:5000/freshFollow/product/searchProduct/${key}`, {
+      let result = await fetch(`https://my-fresh-follow-app.onrender.com/freshFollow/product/searchProduct/${key}`, {
         headers: {
           accesstoken: localStorage.getItem("token"),
         }
